@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Aliança Jurídica Advocacia</title>
+</head>
+
+<body>
+
+    <nav class="menu">
+        <div class="logo">
+            <img src="img/Mídia 2.jpg" alt="Logo da Aliança Jurídica" width="70" height="70">
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="servicos.html">Serviços</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html">Contato</a>
+            <a href="parceiros.html">Parceiros</a>
+            <button class="entrar" id="Entrar">Entrar</button>
+        </nav>div>
+    </nav>
+
+    <main>
+
+        <section class="centralizado">
+            <img src="img/capa2.png" alt="Escritório de Advocacia">
+        </section>
+
+        <section class="cards">
+
+            <article class="card">
+                <h3>Direito Civil</h3>
+                <p>Consultoria e atuação em contratos, indenização, cobranças e conflitos entre particulares.</p>
+            </article>
+
+            <article class="card">
+                <h3>Direito Trabalhista</h3>
+                <p>Consultoria e atuação em questões trabalhistas, incluindo rescisões, acidentes de trabalho e conflitos com empregadores.</p>
+            </article>
+
+            <article class="card">
+                <h3>Direito Empresarial</h3>
+                <p>Consultoria e atuação em questões empresariais, incluindo fusões, aquisições e conformidade regulatória.</p>
+            </article>
+
+        </section>
+
+        <section class="secao-destaque clientes-secao">
+            <div class="secao-introducao">
+                <span>Relacionamento</span>
+                <h2>Nossos clientes</h2>
+                <p>Veja alguns dos clientes atendidos pela Aliança Jurídica.</p>
+            </div>
+
+            <div class="clientes">
+                <h2>Clientes da Aliança Jurídica</h2>
+
+                <table>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Cargo</th>
+                        <th>Status</th>
+                    </tr>
+
+                    <tr>
+                        <td>001</td>
+                        <td>João Silva</td>
+                        <td>Direito Civil</td>
+                        <td><span class="ativo">Ativo</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>002</td>
+                        <td>Maria Souza</td>
+                        <td>Direito Trabalhista</td>
+                        <td><span class="ativo">Ativo</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>003</td>
+                        <td>Carlos Lima</td>
+                        <td>Direito Empresarial</td>
+                        <td><span class="inativo">Inativo</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>004</td>
+                        <td>Ana Costa</td>
+                        <td>Direito Civil</td>
+                        <td><span class="ativo">Ativo</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>005</td>
+                        <td>Pedro Alves</td>
+                        <td>Direito Trabalhista</td>
+                        <td><span class="inativo">Inativo</span></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <section class="secao-destaque contato-secao">
+            <div class="secao-introducao">
+                <span>Atendimento</span>
+                <h2>Fale com a nossa equipe</h2>
+                <p>Conte-nos como podemos ajudar em sua necessidade jurídica.</p>
+            </div>
+
+            <div class="contato">
+                <h2>Contrate os serviços da Aliança Jurídica</h2>
+
+                <table>
+                    <tr>
+                        <td>
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" placeholder="Seu nome">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" placeholder="seu@email.com">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="assunto">Assunto</label>
+                            <select id="assunto">
+                                <option>Selecione um assunto</option>
+                                <option>Dúvida</option>
+                                <option>Suporte</option>
+                                <option>Orçamento</option>
+                                <option>Outro</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" placeholder="Digite sua mensagem aqui..."></textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <button type="submit">Enviar</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Escritório de Advocacia. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
